@@ -7,39 +7,98 @@
     <title>Portafolio Web | Diego Mancía</title>
     <link rel="shortcut icon" href="img/favicon.svg" type="image/x-icon">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="js/script-proyectos.js"></script>
 </head>
 <body>
-    <header>
-        <nav  class="navbar navbar-dark bg-dark">
-            <div>
-                <h1>Diego Fernando Mancía Hernández</h1>
+    <nav  class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+            <a href="index.html" class="navbar-brand">Portafolio Web: Diego Mancía</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+                <div class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <div class="nav-item">
+                        <a href="#quien-soy" class="nav-link">¿Quién soy?</a>
+                    </div>
+                    <div class="nav-item">
+                        <a href="#skill" class="nav-link">Habilidades</a>
+                    </div>
+                    <div class="nav-item">
+                        <a href="#proyectos" class="nav-link">Proyectos</a>
+                    </div>
+                </div>
             </div>
-            <div>
-                <a href="#">Inicio</a>
-            </div>
-            <div>
-                <a href="#">¿Quién soy?</a>
-            </div>
-            <div>
-                <a href="#">Habilidades</a>
-            </div>
-            <div>
-                <a href="#">Proyectos</a>
-            </div>
-        </nav>
-        <article>
-            <div>
-                <h1>Diego Fernando Mancía Hernández</h1>
-            </div>
-            <div>
-                <img src="img/diego-1.jpg" alt="Foto de Diego Mancía">
+        </div>
+    </nav>
+    <section>
+        <article class="container-fluid" id="quien-soy">
+            <div class="p-2">
+                <div class="text-center m-4">
+                    <h1>¿Quién soy?</h1>
+                </div>
+                <div class="row m-4">
+                    <div class="col">
+                        <img src="img/diego-1.jpg" alt="Foto de Diego Mancía" class="img-fluid">
+                    </div>
+                    <div class="col">
+                        <p>p</p>
+                    </div>
+                </div>
             </div>
         </article>
-    </header>
-    <section>
-        <article>
-            <p>Hola Mundo</p>
+        <article class="container-fluid bg-secondary text-dark" id="skill">
+            <div class="p-2">
+                <div class="text-center m-4">
+                    <h1>Mis habilidades</h1>
+                </div>
+                <div class="row m-4">
+                    <div class="col">
+                        <div class="p-4 text-center">
+                            <ul class="list-group">
+                                <li class="list-group-item list-group-item-primary" >Conocimientos en HTML</li>
+                                <li class="list-group-item list-group-item-info">Conocimientos en CSS</li>
+                                <li class="list-group-item list-group-item-warning">Experiencia en el uso de Bootstrap</li>
+                                <li class="list-group-item list-group-item-danger">Conocimiento en el lenguaje de programación JavaScript</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="p-4 text-center">
+                            <ul class="list-group">
+                                <li class="list-group-item list-group-item-primary" >Conocimiento en el uso de la librería JQuery</li>
+                                <li class="list-group-item list-group-item-info">Conocimientos en el lenguaje de programación PHP</li>
+                                <li class="list-group-item list-group-item-warning">Conocimiento en el uso de la librería FPDF</li>
+                                <li class="list-group-item list-group-item-danger">Conocimientos ocupando Bases de datos MySQL</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="p-4 text-center">
+                            <ul class="list-group">
+                                <li class="list-group-item list-group-item-primary" >Experiencia usando WampServer</li>
+                                <li class="list-group-item list-group-item-info">Experiencia trabajando con GitHub</li>
+                                <li class="list-group-item list-group-item-warning">Experiencia en el uso de Bootstrap</li>
+                                <li class="list-group-item list-group-item-danger">Conocimientos en el lenguaje de programación C++</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </article>
+        <article class="container-fluid" id="proyectos">
+            <div class="p-2" id="contenedor-proyectos">
+                <div class="text-center m-4">
+                    <h1>Poyectos en los que he participado</h1>
+                </div>
+                <div class="row m-4" id="proyectos-0">
+                    <!-- JQUERY -->
+                </div>
+            </div>
         </article>
     </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
 </body>
 </html>
