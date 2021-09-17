@@ -3,8 +3,8 @@ $(document).ready(function () {
     var contenedor = $("#proyectos-0");
     var imagenes = [ "img/buen_ciudadano.png", "img/e-games.png", "img/martial_arts.png", "img/seework.png", "img/teatro_nacional.png" ];
     var titulos = [ "Ser un buen ciudadano", "E GAMES", "MARTIAL ARTS", "See Work", "Teatro Nacional" ];
-    var descripciones = [ "Proyecto escolar sobre la ‘buena ciudadania’ donde se utiliza Bootstrap para crear un sitio web sencillo.", "E GAMES", "MARTIAL ARTS", "See Work", "Teatro Nacional" ];
-    var link = [ "https://como-ser-un-buen-ciudadano.netlify.app/", "https://e-games.vercel.app/", "https://taller2-20100048-20190124.vercel.app/", "https://teatro-nacional.vercel.app/", "https://diegosan03.github.io/HernandezNolasco-ManciaHernandez-PruebaPractica1/" ];
+    var descripciones = [ "Proyecto escolar sobre la 'buena ciudadania' donde se utiliza Bootstrap para crear un sitio web sencillo.", "Proyecto escolar utilizando JavaScript Vanilla para crear un prototipo de Interfaz para una tienda Online de Videojuegos.", "Proyecto escolar sobre un sitio web estático dedicado a una ficticia institución de artes marciales.", "Proyecto escolar en donde se pone en JavaScript Vanilla para crear una hipotética Bolsa de trabajos sencilla.", "Proyecto escolar en donde se ponen en práctica conocimientos de HTML y CSS creando un hipotético sitio web para el teatro nacional." ];
+    var link = [ "https://como-ser-un-buen-ciudadano.netlify.app/", "https://e-games.vercel.app/", "https://taller2-20100048-20190124.vercel.app/", "https://diegosan03.github.io/HernandezNolasco-ManciaHernandez-PruebaPractica1/", "https://teatro-nacional.vercel.app/" ];
     var card = "";
     var contenedorP = "";
     var etiqueta = "";
